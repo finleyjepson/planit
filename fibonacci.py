@@ -1,3 +1,4 @@
+# calculates the fibonacci number of n
 def fibs(n):
 	a = 0
 	b = 1
@@ -14,6 +15,10 @@ def fibs(n):
 			b = c
 		return b
 
+# input for n
 n = int(input("enter a number: "))
 
+# prints the fibonacci number
 print(fibs(n))
+
+# contributed by Finley Jepson
